@@ -132,7 +132,8 @@ footer {
 
 .projectpic {
   width: 23em;
-  padding-left: 40%;
+  float: right;
+  padding-right: 50px;
 }
 
 .pname {
@@ -148,7 +149,7 @@ footer {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
   list-style-type: square;
-  padding-right: 50%;
+  float: left;
 }
 
 .pname a:link, .pname a:visited {
