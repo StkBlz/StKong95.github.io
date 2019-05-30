@@ -101,7 +101,7 @@ footer {
 }
 
 .profile {
-  width: 15em;
+  width: 18em;
 }
 
 .profiledesc {
@@ -120,8 +120,8 @@ footer {
   padding: 10px 20px 20px;
   margin: 0;
   font-size: 1.3em;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
 }
 
