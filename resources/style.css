@@ -4,7 +4,7 @@ html {
   padding: 0px;
   text-align: left;
   width: 100%;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(29, 29, 29);
 }
 
 body {
@@ -112,7 +112,7 @@ footer {
 
 /* ABOUT ME */
 .about {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(29, 29, 29);
 }
 
 .aboutdesc {
@@ -120,14 +120,14 @@ footer {
   padding: 10px 20px 20px;
   margin: 0;
   font-size: 1.3em;
-  margin-left: 20%;
-  margin-right: 20%;
-  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
 }
 
 /* PROJECTS */
 .projects {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(29, 29, 29);
 }
 
 .projectpic {
