@@ -139,7 +139,7 @@
 }
 
 .dark.body {
-    background: #191919;
+    background:#272727
 }
 
 .dark .title {
@@ -157,7 +157,10 @@
 }
 
 .dark .rotation-content {
-    background: #272727;
+  background-image: url("images/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
     border-color: #636363;
 }
 
