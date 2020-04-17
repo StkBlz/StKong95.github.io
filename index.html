@@ -1,111 +1,109 @@
-<!DOCTYPE html>
-<html>
-
 <head>
-  <title>Steven Kong</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Steven Kong's Portfolio</title>
+
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
 </head>
 
-<body>
-
-  <!--NAVIGATION BAR-->
-  <div class="nav">
-    <a class="name">Steven Kong</a>
-    <a href="https://www.linkedin.com/in/stevenkongcs/"><img class="linkedin" src="resources/lnwhite.png"></a>
-    <a class="right" href="mailto:stkong95@gmail.com">Contact Me</a>
-    <div class="sep"> | </div>
-    <a class="right" href="resume.html">Resume</a>
-    <div class="sep"> | </div>
-    <a class="right" href="https://github.com/StKong95">GitHub</a>
+<header>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <a class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"></svg>
+        <strong>Steven Kong</strong>
+      </a>
+    </div>
   </div>
+</header>
 
-  <!--PROFILE-->
-  <header>
-    <div class="top">
-      <img class="profile" src="resources/profile.png">
-      <div class="title">Steven Kong</div>
-      <hr width="400px">
-      <div class="profiledesc">
-        <p>B.S. Computer Science</p>
-        <p>New York, NY </p>
+<main role="main">
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>Steven Kong's Portfolio</h1>
+      <p class="lead text-muted">This is a list of my personal projects.<br>Feel free to message me with any inquiries.</p>
+      <p>
+        <a href="https://github.com/StKong95" target="_blank" class="btn btn-primary my-2">GitHub</a>
+        <a href="https://www.linkedin.com/in/stevenkongcs/" target="_blank" class="btn btn-secondary my-2">LinkedIn</a>
+        <a href="mailto:stkong95@gmail.com" class="btn btn-success my-2">Contact Me</a>
+      </p>
+    </div>
+  </section>
+
+  <!--------------- Projects ----------------->
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Line -->
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="projectpic" src="resources/chat.png" width="100%" height="450" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" >
+            <div class="card-body">
+              <p class="card-text">Line Messenger Chat Bot</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/StKong95/Hiyuki','_blank')">View</button>
+                </div>
+                <small class="text-muted">Python, RESTful API</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Currency -->
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="projectpic" src="resources/currency.png" width="100%" height="450" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" >
+            <div class="card-body">
+              <p class="card-text">Currency Converter Script</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/StKong95/Currency-Converter','_blank')">View</button>
+                </div>
+                <small class="text-muted">Python, RESTful API</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Android -->
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="projectpic" src="resources/app.png" width="100%" height="450" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" >
+            <div class="card-body">
+              <p class="card-text">Beats Per Minute Android App</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/StKong95/BPMCalculator','_blank')">View</button>
+                </div>
+                <small class="text-muted">Java, Android Studio</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
-  </header>
+  </div>
 
-  <!--ABOUT ME-->
-  <section class="about">
-    <div class="title">About Me</div>
-    <hr width="400px">
-    <p class="aboutdesc">I have earned a Bachelor's Degree in Computer Science from the College of Staten Island (CUNY) with a 3.8 GPA. <br><br>My primary focus is backend development using Python or C++. <br><br>My ideal position would be a backend-oriented Software Engineer role.</p>
-  </section>
+</main>
 
-  <!--PROJECTS-->
-  <section class="projects">
-    <div class="title">Projects</div>
-    <hr width="300px">
-    <table>
-      <tr>
-        <td class="pname" colspan="2"><a href="https://github.com/StKong95/Hiyuki">Line Messaging App Chatbot</a>
-        </td>
-      </tr>
-      <tr>
-        <td><img class="projectpic" src="resources/chat.png"></td>
-        <td>
-          <ul class="pdesc">
-            <li>Built with Python and Flask.</li>
-            <li>Deployed to the Heroku PaaS cloud server.</li>
-            <li>Developed a chatbot script capable of fetching images from websites such as DeviantArt and Twitter using 3rd Party APIs.</li>
-            <li>Improved the script to retrieve content from Reddit domain and allowing users to search keywords using Reddit's official API.</li>
-            <li>Improved Twitter functionality to include post retrieval from any user by using Twitter's official API.</li>
-            <li>Added the capability of searching a JSON database of items for Runescape and returning the details of a user's searched item.</li>
-            <li>Developed a method of returning search results from YouTube using its official API.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td class="pname" colspan="2"><a href="https://github.com/StKong95/Currency-Converter">Currency Converter</a>
-        </td>
-      </tr>
-      <tr>
-        <td><img class="projectpic" src="resources/currency.png"></td>
-        <td>
-          <ul class="pdesc">
-            <li>Built with Python.</li>
-            <li>Developed a script which allows for users to convert their currency to any chosen currency.</li>
-            <li>Retrieves the latest foreign currency data published by the European Central Bank.</li>
-            <li>Users can access this data by making use of the Exchange Rates REST API within this script.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td class="pname" colspan="2"><a href="https://github.com/StKong95/BPMCalculator">Beats Per Minute (BPM) Calculator Android App</a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img class="projectpic" src="resources/app.png">
-        </td>
-        <td>
-          <ul class="pdesc">
-            <li>Built with Java and Android Studio.</li>
-            <li>Developed an Android App capable of multiplying an inputted number by pre-defined buttons.</li>
-            <li>Users can select any number and have results for different computations peformed instantly.</li>
-            <li>Features a fully functional and user-friendly GUI with easy to read buttons and text.</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </section>
-
-
-</body>
-
-<footer>
-  <br>
-  <small style="font-family: 'Open Sans', Sans-serif;">© 2020, Steven Kong</small>
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>&copy 2020, Steven Kong</p>
+  </div>
 </footer>
-
-</html>
